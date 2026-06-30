@@ -1,6 +1,22 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.set_page_config(
+    page_title="Heart Disease Prediction",
+    page_icon="❤️",
+    layout="wide"
 )
+
+st.title("❤️ Heart Disease Prediction")
+
+st.write("""
+Selamat datang pada aplikasi Prediksi Penyakit Jantung menggunakan
+algoritma Support Vector Machine (SVM).
+
+Silakan pilih menu di sebelah kiri.
+
+Menu tersedia:
+
+- Training Model
+- Prediksi
+- Tentang
+""")
